@@ -12,6 +12,7 @@
     "esbenp.prettier-vscode",
     "wayou.vscode-todo-highlight",
     "davidanson.vscode-markdownlint",
-    "diemasmichiels.emulate"
+    "diemasmichiels.emulate",
+    "expo.vscode-expo-tools"
   ]
 }

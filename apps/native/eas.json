@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "appVersionSource": "local"
+  },
+  "build": {
+    
+    "dev": {
+      "environment": "development",
+      "developmentClient": true,
+      "env": {
+        "ENV": "dev",
+        "MAIN_API_URL": "https://api.dev.com"
+      }
+    },
+    "stg": {
+      "environment": "preview",
+      "env": {
+        "ENV": "stg",
+        "MAIN_API_URL": "https://api.stg.com"
+      }
+    },
+    "prod": {
+      "environment": "production",
+      "env": {
+        "ENV": "prod",
+        "MAIN_API_URL": "https://api.prod.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "357801570334",
+    "project_id": "node-starter-project-dev",
+    "storage_bucket": "node-starter-project-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357801570334:android:a21b577fb7133412f77e0f",
+        "android_client_info": {
+          "package_name": "cl.lhpaul.reactNativePlayground.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357801570334-6hsqsj7avofo5bqeiam0dn4r9e22ka29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.lhpaul.reactNativePlayground.dev",
+            "certificate_hash": "a1f2f368e98ff9fc10491556a75b0b76026bcb47"
+          }
+        },
+        {
+          "client_id": "357801570334-9hgkpfu58kv3ndqfrkvqfo0gfrjhi2vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFd3r3zSn7eWe1NXmnZ1D5t3XFQoZ6TtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357801570334-9hgkpfu58kv3ndqfrkvqfo0gfrjhi2vr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357801570334-rc8ncsj5nnvj29q9j8onseetcmv37ln6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cl.lhpaul.react-native-playground"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

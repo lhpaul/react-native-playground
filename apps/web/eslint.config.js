@@ -18,7 +18,8 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
     },
     rules: {
-      ...reactHooks.configs.recommended.rules,
+      ...tseslint.configs.recommendedTypeChecked,
+      ...tseslint.configs.stylisticTypeChecked,
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
