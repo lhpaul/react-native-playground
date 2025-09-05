@@ -5,11 +5,12 @@ import { View, Text, Button } from 'react-native';
 const Page = () => {
 	const firebaseAuth = getAuth();
 	const user = firebaseAuth.currentUser;
-	const [token, setToken] = useState<string | null>(null);
+	const [idToken, setIdToken] = useState<string | null>(null);
+	console.log('TOKEN', idToken);
 
 	const getToken = async () => {
-		const idToken = await user?.getIdToken();
-		setToken(idToken as string);
+		const idToken = await user?.getIdToken(true);
+		setIdToken(idToken as string);
 	}
 
 	return (
@@ -17,7 +18,7 @@ const Page = () => {
 			<Text>Welcome back back {user?.email}</Text>
 			<Button title="Sign out" onPress={() => signOut(firebaseAuth)} />
 			<Button title="Get token" onPress={() => getToken()} />
-			<Text>{token}</Text>
+			<Text>{idToken}</Text>
 		</View>
 	);
 };
