@@ -16,7 +16,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     orientation: 'portrait',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
-    newArchEnabled: true,
+    newArchEnabled: false,
     extra: {
       eas: {
         projectId: '789d549a-b741-4221-9f83-02def516dae6' // TODO: add explanation in README
